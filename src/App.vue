@@ -1,6 +1,6 @@
 <template lang="pug">
   #app
-    img(src='https://ezequielfreire007.github.io/vue-basic/assets/logo.png') 
+    img(src='https://ezequielfreire007.github.io/vue-basic/dist/logo.png') 
     h1 EzeMusic
     select(v-model="selectedCountry")
       option(v-for="country in countries" v-bind:value="country.value") {{ country.name }} 

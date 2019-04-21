@@ -10,4 +10,5 @@ export default function getArtists(country) {
     return fetch(url)
         .then( res => res.json())
         .then(json => json.topartists.artist)
+        .catch(error => error.json())
 }
